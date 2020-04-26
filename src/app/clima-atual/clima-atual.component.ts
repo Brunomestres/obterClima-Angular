@@ -9,10 +9,18 @@ import { IClimaAtual } from '../interfaces';
 export class ClimaAtualComponent implements OnInit {
   current: IClimaAtual;
 
-  constructor(private climaService: ClimaService) {}
+  constructor(private climaService: ClimaService) {
+    // this.current = {
+    //   cidade: '',
+    //   pais: '',
+    //   descricao: '',
+    //   temperatura: 0,
+    //   data: 0
+    // };
+  }
 
   ngOnInit(): void {
-    this.climaService.getCurrent('Bethesda', 'US').subscribe(data => this.current = data);
+    // this.climaService.getCurrent('Bethesda', 'US').subscribe(data => this.current = data);
   }
 
 }

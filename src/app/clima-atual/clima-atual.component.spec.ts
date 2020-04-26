@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ClimaAtualComponent } from './clima-atual.component';
+
 
 describe('ClimaAtualComponent', () => {
   let component: ClimaAtualComponent;
